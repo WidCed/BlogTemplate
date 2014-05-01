@@ -14,6 +14,11 @@ body {
 	margin: 0 auto;
 }
 
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
 aside {
 	top: 0;
 	float: right;
@@ -73,12 +78,12 @@ article {
 	padding: 16px;
 }
 
-a {
+aside a {
 	color: #0077DD;
 	text-decoration: none;
 }
 
-a:hover {
+aside a:hover {
 	text-decoration: underline;
 }
 
@@ -120,3 +125,6 @@ footer {
 	margin-top: 32px;
 	text-align: center;
 }
+
+
+
