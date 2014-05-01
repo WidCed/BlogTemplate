@@ -1,7 +1,5 @@
 html,
 body {
-	width: 100%;
-	height: 100%;
 	padding: 0;
 	margin: 0;
 	background: #FAFAF6;
@@ -10,19 +8,25 @@ body {
 	text-align: justify;
 }
 
+body {
+	position: relative;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
 aside {
 	top: 0;
 	float: right;
 	position: absolute;
 	right: 0;
 	width: 240px;
-	width: 15%;
+	width: 20%;
 	height: 100%;
 	margin-left: 16px;
 }
 
 #bio {
-	background: #FAFAF6;
+	padding: 0 16px;
 }
 
 #bio img {
@@ -31,16 +35,21 @@ aside {
 
 #bio p {
 	margin: 0;
-	padding: 16px;
+	/*padding: 0 16px;*/
 }
 
 h2 {
 	margin: 0;
 	margin-left: 16px;
+	margin-top: 32px;
 }
 
 aside ul {
 	margin: 8px 0;
+}
+
+#wrapper {
+	width: 80%;
 }
 
 header {
@@ -50,7 +59,6 @@ header {
 h1 {
 	margin-top: 0;
 	margin-bottom: 8px;
-	margin-left: 32px;
 	font-size:
 }
 
@@ -73,9 +81,6 @@ h3 {
 	margin-bottom: 0;
 }
 
-section {
-	width: 85%;
-}
 
 article:nth-child(2n+0) {
 	background: #EAEEF2;
